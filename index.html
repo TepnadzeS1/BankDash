@@ -100,12 +100,39 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="article__weeklyactivityAndExpstatistics">
-
+                        <div class="article__weeklyactivityAndExpstatistics flex size-1190">
+                            <div class="weeklyActivity__content">
+                                <h3 class="card__title text--darkblue">Weekly Activity</h3>
+                                <img src="images/WeeklyActivity.svg"/>
+                            </div>
+                            <div class="expStatistics__content">
+                                <h3 class="card__title text--darkblue">Expense Statistics</h3>
+                                <img src="images/ExpStatistics.svg"/>
+                            </div>
                         </div>
-                        <div class="article__quicktransferAndBalancehistory">
-                            <div class="article__quickTransfer card-size"></div>
-                            <img class="article__balancehistory card-size"/>
+                        <div class="article__quicktransferAndBalancehistory flex size-1190">
+                            <div class="article__quickTransfer card-size flex-col">
+                                <h3 class="card__title text--darkblue">Quick Transfer</h3>
+                                <div class="quicktransferAndBalancehistory__content flex-col">
+                                    <div class="quickTransfer__persons flex">
+                                        <button><img src="images/liviabator.svg"/></button>
+                                        <button><img src="images/randypress.svg"/></button>
+                                        <button><img src="images/workman.svg"/></button>
+                                        <button><img src="images/nextperson.svg"/></button>
+                                    </div>
+                                    <div class="quickTransfer__payAmount">
+                                        <form action="">
+                                            <label for="amountpay" class="text--weakblue">Write Amount</label>
+                                            <input class="text--weakblue" type="number" placeholder="525.50" id="amountpay" name="" required/>
+                                            <button class="text--white flex" type="submit">Send<img src="images/icons/airplaneicon.svg"/></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="BalHistory">
+                                <h3 class="card__title text--darkblue">Balance History</h3>
+                                <img src="images/balancehistory.svg"/>
+                            </div>
                         </div>
                     </div>
                 </div>

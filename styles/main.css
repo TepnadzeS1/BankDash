@@ -38,7 +38,12 @@ body {
 }
 
 .card-size:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
+}
+
+.size-1190 {
+    max-width: 1190px;
+    width: 100%;
 }
 
 /* || Utilities */
@@ -125,7 +130,13 @@ a {
     transition: all 0.5s;
 }
 
-.aside-line a:focus, .aside-line a:hover {
+.aside-line a:hover {
+    background: url("../images/icons/smallbluelineforicon.svg") no-repeat left;
+    color: #2D60FF;
+    background-color: #edf0f8;
+}
+
+.aside-line a:focus {
     background: url("../images/icons/smallbluelineforicon.svg") no-repeat left;
     color: #2D60FF;
     background-color: #e0e7ff;
@@ -141,6 +152,10 @@ a {
     padding-top: 10px;
     background: #ffffff;
     flex-wrap: wrap;
+}
+
+.main-page__article {
+    gap: 70px;
 }
 
 .header__searchbar {
@@ -308,4 +323,120 @@ p.card__balance > span {
 span.transaction__content--red {
     color: #FF4B4A;
     margin-left: 20px
+}
+
+/* || Weekly Activity and Expense Statistics */
+
+.article__weeklyactivityAndExpstatistics {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.weeklyActivity__content:hover {
+    transform: scale(1.1);
+}
+
+.expStatistics__content:hover {
+    transform: scale(1.1);
+}
+
+/* || Quick Transfer and Balance History */
+
+.article__quicktransferAndBalancehistory {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.article__quickTransfer {
+    width: 445px;
+    height: 276px;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+.quickTransfer__persons > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.quickTransfer__persons {
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+.quickTransfer__persons > button:last-child {
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+}
+
+.quickTransfer__persons > button:last-child > img {
+    margin-top: -15px;
+    margin-left: -20px;
+}
+
+.quickTransfer__persons > button:focus {
+    border: 1px solid #718EBF;
+    background-color: #cbddea;
+}
+
+.quickTransfer__persons > button:hover {
+    border: 0.4px solid #718EBF;
+    background-color: #e7ebee;
+}
+
+.quickTransfer__payAmount input {
+    width: 255px;
+    height: 50px;
+    border-radius: 50px;
+    background: #EDF1F7;
+    border: none;
+    padding-left: 30px;
+    margin-left: 27px;
+}
+
+.quickTransfer__payAmount {
+    height: 30px;
+}
+
+.quickTransfer__payAmount button {
+    width: 125px;
+    height: 50px;
+    border-radius: 50px;
+    background: #1814F3;
+    box-shadow: 4px 4px 18px -2px rgba(231, 228, 232, 0.80);
+    border: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 11px;
+    position: relative;
+    top: -51px;
+    left: 295px;
+    cursor: pointer;
+}
+
+.quicktransferAndBalancehistory__content {
+    gap: 25px;
+    align-content: center;
+    justify-content: center;
+    height: 270px;
+    margin-top: -10px;
+}
+
+.article__quickTransfer > h3.card__title {
+    margin-top: -60px;
+}
+
+.quickTransfer__payAmount > form {
+    height: 100%;
+}
+
+.BalHistory img:hover {
+    transform: scale(1.1);
 }
