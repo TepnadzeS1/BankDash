@@ -207,22 +207,13 @@ input::placeholder {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 30px;
 }
 
 .article__cards {
-    max-width: 730px;
-    width: 100%;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
     margin-left: 40px;
-}
-
-.article__transactions {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 40px;
 }
 
 .cards__content {
@@ -295,9 +286,8 @@ p.card__balance > span {
 /* || Transaction */
 
 .article__transactions {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    margin-right: 40px;
 }
 
 .transaction__content {
@@ -397,7 +387,7 @@ span.transaction__content--red {
     background: #EDF1F7;
     border: none;
     padding-left: 30px;
-    margin-left: 27px;
+    margin-left: 15px;
 }
 
 .quickTransfer__payAmount {
@@ -416,8 +406,8 @@ span.transaction__content--red {
     align-items: center;
     gap: 11px;
     position: relative;
-    top: -51px;
-    left: 295px;
+    top: 1px;
+    left: -125px;
     cursor: pointer;
 }
 
@@ -427,6 +417,12 @@ span.transaction__content--red {
     justify-content: center;
     height: 270px;
     margin-top: -10px;
+}
+
+.payAmount__value {
+    margin-top: 10px;
+    width: 105px;
+    margin-left: 10px;
 }
 
 .article__quickTransfer > h3.card__title {
