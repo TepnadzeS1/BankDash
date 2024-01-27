@@ -126,7 +126,7 @@ a {
 }
 
 .aside-line a:focus, .aside-line a:hover {
-    background: url("../images/smallbluelineforicon.svg") no-repeat left;
+    background: url("../images/icons/smallbluelineforicon.svg") no-repeat left;
     color: #2D60FF;
     background-color: #e0e7ff;
     transform: scale(1.1);
