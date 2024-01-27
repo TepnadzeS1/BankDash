@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sandro Tepnadze" />
+    <meta name="describtion" content="..."/>
+    <meta property="og:image" content="..."/>
+    <meta property="og:title" content="..."/>
+    <meta property="og:describtion" content="..."/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Exercise_4_with_css/images/novatori.svg"/>
+    <link rel="stylesheet" href="styles/normalize.css"/>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Bank Dash</title>
+</head>
+<body>
+    <main>
+        <div class="section">
+            <div class="section__content">
+                <aside class="section__aside flex-col">
+                    <img class="bank-logo" src="images/bankDash_logo.svg"/>
+                    <nav>
+                        <ul class="nobullets aside-line">
+                            <li><a class="text--gray" href="#"><img src="images/icons/homeicon.svg"/>Dashboard</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/transactionsicon.svg"/>Transactions</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/accounticon.svg"/>Accounts</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/investmentsicon.svg"/>Investments</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/credicardicon.svg"/>Credit Cards</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/loansicon.svg"/>Loans</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/servicesicon.svg"/>Services</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/privilegesicon.svg"/>My Privileges</a></li>
+                            <li><a class="text--gray" href="#"><img src="images/icons/settingsicon.svg"/>Setting</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+                <div class="section__main-page">
+                    <div class="main-page__header">
+                        <h2 class="header__title text--darkblue">Overview</h2>
+                        <div class="header__searchbar">
+                            <form action="">
+                                <button class="header__searchicon" type="submit"><img src="images/searchicon.svg"/></button>
+                                <input type="text" placeholder="Search for something" required/>
+                            </form>
+                            <button><a href="#"><img src="images/asideSetting.svg"/></a></button>
+                            <button><a href="#"><img src="images/asideRing.svg"/></a></button>
+                            <img src="images/asideImage.png"/>
+                        </div>
+                    </div>
+                    <div class="main-page__article flex-col">
+                        <div class="article__cardsAndTransaction">
+                            <div class="article__cards">
+                                <div class="card-size card--blue">
+                                    <h3 class="card__title text--darkblue">My Cards</h3>
+                                    <div class="cards__content">
+                                        <p class="card__balance text--white">Balance <span>$5,756</span></p> 
+                                        <img src="images/Chip_Card.svg"/>
+                                    </div>
+                                    <div class="cards__content cards__content--transform">
+                                        <p class="card__balance text--lightgray uppercase ">Card Holder <span class="text--white">Eddy Cusuma</span></p>
+                                        <p class="card__balance text--lightgray uppercase">Valid thru <span class="text--white">12/22</span></p>
+                                    </div>
+                                    <div class="cards__content card--difference">
+                                        <span class="text--white">3778 **** **** 1234</span> <img src="images/master-card.svg"/>
+                                    </div>
+                                </div>
+                                <div class="card-size simple-border">
+                                    <h4 class="card__title--left text--darkblue">See All</h4>
+                                    <div class="cards__content">
+                                        <p class="card__balance text--weakblue">Balance <span class="text--darkblue">$5,756</span></p> 
+                                        <img src="images/darkChip_Card.svg"/>
+                                    </div>
+                                    <div class="cards__content cards__content--transform">
+                                        <p class="card__balance uppercase text--weakblue">Card Holder <span class="text--darkblue">Eddy Cusuma</span></p>
+                                        <p class="card__balance uppercase text--weakblue">Valid thru <span class="text--darkblue">12/22</span></p>
+                                    </div>
+                                    <div class="cards__content card--difference card__numbers">
+                                        <span class="text--darkblue">3778 **** **** 1234</span> <img src="images/darkmaster-card.svg"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article__transactions card-size">
+                                <h3 class="card__title text--darkblue card__title--difference">Recent Transaction</h3>
+                                <div class="transaction__content">
+                                    <img src="images/deposit-card.svg"/>
+                                    <p class="text--darkblue">Deposit from my Card<span class="flex-col">28 January 2021</span></p>
+                                    <span class="transaction__content--red">-$850</span>
+                                </div>
+                                <div class="transaction__content">
+                                    <img src="images/paypal.svg"/>
+                                    <p class="text--darkblue">Deposit Paypal<span class="flex-col">25 January 2021</span></p>
+                                    <span>+$2,500</span>
+                                </div>
+                                <div class="transaction__content">
+                                    <img src="images/JemiWilson.svg"/>
+                                    <p class="text--darkblue">Jemi Wilson<span class="flex-col">21 January 2021</span></p>
+                                    <span>+$5,400</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article__weeklyactivityAndExpstatistics">
+
+                        </div>
+                        <div class="article__quicktransferAndBalancehistory">
+                            <div class="article__quickTransfer card-size"></div>
+                            <img class="article__balancehistory card-size"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
