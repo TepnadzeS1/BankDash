@@ -205,7 +205,6 @@ input::placeholder {
 
 .article__cardsAndTransaction {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -288,6 +287,7 @@ p.card__balance > span {
 .article__transactions {
     justify-content: center;
     margin-right: 40px;
+    margin-left: 20px;
 }
 
 .transaction__content {
