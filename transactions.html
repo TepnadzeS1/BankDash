@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="ka">
-<head>
+<html>
+<head lang="ka">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Sandro Tepnadze" />
-    <meta name="describtion" content="..."/>
-    <meta property="og:image" content="..."/>
-    <meta property="og:title" content="..."/>
-    <meta property="og:describtion" content="..."/>
+    <link rel="icon" src="images/NovatoriLogo.svg"/>
+    <link rel="stylesheet" href="styles/normalize.css"/>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/transaction.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/NovatoriLogo.svg"/>
-    <link rel="stylesheet" href="styles/normalize.css"/>
-    <link rel="stylesheet" href="styles/main.css" />
-    <title>Bank Dash</title>
+    <title>Transaction</title>
 </head>
 <body>
     <main>
@@ -38,7 +34,7 @@
             <div class="section__content">
                 <div class="section__main-page">
                     <div class="main-page__header">
-                        <h2 class="header__title text--darkblue">Overview</h2>
+                        <h2 class="header__title text--darkblue">Transactions</h2>
                         <div class="header__searchbar">
                             <form action="">
                                 <button class="header__searchicon" type="submit"><img src="images/icons/searchicon.svg"/></button>
@@ -67,7 +63,7 @@
                                     </div>
                                 </div>
                                 <div class="card-size simple-border">
-                                    <h4 class="card__title--left text--darkblue">See All</h4>
+                                    <h4 class="card__title--left text--darkblue">+ Add Card</h4>
                                     <div class="cards__content">
                                         <p class="card__balance text--weakblue">Balance <span class="text--darkblue">$5,756</span></p> 
                                         <img src="images/darkChip_Card.svg"/>
@@ -83,61 +79,21 @@
                             </div>
                             <div class="article__transactions card-size flex-col">
                                 <h3 class="card__title text--darkblue card__title--difference">Recent Transaction</h3>
-                                <div class="transaction__content">
-                                    <img src="images/deposit-card.svg"/>
-                                    <p class="text--darkblue">Deposit from my Card<span class="flex-col">28 January 2021</span></p>
-                                    <span class="transaction__content--red">-$850</span>
-                                </div>
-                                <div class="transaction__content">
-                                    <img src="images/paypal.svg"/>
-                                    <p class="text--darkblue">Deposit Paypal<span class="flex-col">25 January 2021</span></p>
-                                    <span>+$2,500</span>
-                                </div>
-                                <div class="transaction__content">
-                                    <img src="images/JemiWilson.svg"/>
-                                    <p class="text--darkblue">Jemi Wilson<span class="flex-col">21 January 2021</span></p>
-                                    <span>+$5,400</span>
-                                </div>
+                                <img src="images/Myexp.svg"/>
                             </div>
                         </div>
-                        <div class="article__weeklyactivityAndExpstatistics flex size-1190">
-                            <div class="weeklyActivity__content">
-                                <h3 class="card__title text--darkblue">Weekly Activity</h3>
-                                <img src="images/WeeklyActivity.svg"/>
+                        <div class="article__recentTransactions flex-col">
+                            <div class="recentTransaction__list flex">
+                                <a href="#" class="text--weakblue">All Transactions</a> 
+                                <a href="#" class="text--weakblue">Income</a> 
+                                <a href="#" class="text--weakblue">Expense</a> 
                             </div>
-                            <div class="expStatistics__content">
-                                <h3 class="card__title text--darkblue">Expense Statistics</h3>
-                                <img src="images/ExpStatistics.svg"/>
-                            </div>
-                        </div>
-                        <div class="article__quicktransferAndBalancehistory flex size-1190">
-                            <div class="article__quickTransfer card-size flex-col">
-                                <h3 class="card__title text--darkblue">Quick Transfer</h3>
-                                <div class="quicktransferAndBalancehistory__content flex-col">
-                                    <div class="quickTransfer__persons flex">
-                                        <button><img src="images/liviabator.svg"/></button>
-                                        <button><img src="images/randypress.svg"/></button>
-                                        <button><img src="images/workman.svg"/></button>
-                                        <button><img src="images/nextperson.svg"/></button>
-                                    </div>
-                                    <div class="quickTransfer__payAmount">
-                                        <form action="" class="flex">
-                                            <label for="amountpay"><p class="payAmount__value text--weakblue">Write Amount</p></label>
-                                            <input class="text--weakblue" type="number" placeholder="525.50" id="amountpay" name="" required/>
-                                            <button class="text--white flex" type="submit">Send<img src="images/icons/airplaneicon.svg"/></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="BalHistory">
-                                <h3 class="card__title text--darkblue">Balance History</h3>
-                                <img src="images/balancehistory.svg"/>
-                            </div>
+                            <div class="recentTransaction__content"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-</body>
+</body>    
 </html>

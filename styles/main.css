@@ -18,23 +18,23 @@ body {
 }
 
 .section__content {
-    max-width: 1440px;
-    width: 1440px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    min-width: 740px;
 }
 
 .section__main-page {
-    max-width: 1190px;
+    width: 100%;
 }
 
 .card-size {
-    width: 349px;
-    height: 235px;
     border-radius: 25px;
     background-color: #ffffff;
     margin-top: 70px;
     transition: all 50ms;
+    max-width: 1000px;
+    width: 349px;
 }
 
 .card-size:hover {
@@ -79,6 +79,10 @@ a {
     cursor: pointer;
     font-size: 18px;
     font-weight: 500;
+}
+
+p, span {
+    font-size: 18px;
 }
 
 /* || Text--color */
@@ -156,6 +160,7 @@ a {
 
 .main-page__article {
     gap: 70px;
+    align-content: center;
 }
 
 .header__searchbar {
@@ -206,18 +211,23 @@ input::placeholder {
 .article__cardsAndTransaction {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
 }
 
 .article__cards {
     display: flex;
-    gap: 30px;
     flex-wrap: wrap;
-    margin-left: 40px;
+    margin-left: 20px;
+    max-width: 750px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .cards__content {
     display: flex;
-    justify-content: space-between;
     padding: 0px 25px;
     align-items: center;
     padding-top: 24px;
@@ -227,6 +237,7 @@ input::placeholder {
     font-size: 22px;
     font-weight: 600;
     font-family: 'Lato';
+    flex-grow: 1;
 }
 
 .card--blue {
@@ -237,6 +248,7 @@ input::placeholder {
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 400;
+    flex-grow: 1;
 }
 
 .cards__content--transform {
@@ -318,9 +330,14 @@ span.transaction__content--red {
 /* || Weekly Activity and Expense Statistics */
 
 .article__weeklyactivityAndExpstatistics {
-    justify-content: center;
-    gap: 30px;
     flex-wrap: wrap;
+    margin-left: 20px;
+    max-width: 1145px;
+    gap: 40px;
+}
+
+.weeklyActivity__content {
+    flex-grow: 1;
 }
 
 .weeklyActivity__content:hover {
@@ -334,9 +351,11 @@ span.transaction__content--red {
 /* || Quick Transfer and Balance History */
 
 .article__quicktransferAndBalancehistory {
-    justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1145px;
+    margin-left: 20px;
 }
 
 .article__quickTransfer {
@@ -423,6 +442,7 @@ span.transaction__content--red {
     margin-top: 10px;
     width: 105px;
     margin-left: 10px;
+    font-size: 16px;
 }
 
 .article__quickTransfer > h3.card__title {
