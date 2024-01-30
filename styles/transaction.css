@@ -2,7 +2,6 @@
 
 .recentTransaction__list {
     width: 100%;
-    border-bottom: 1px solid #EBEEF2;
     gap: 71px;
 }
 
@@ -13,4 +12,8 @@
 .recentTransaction__list a:focus {
     color: #1814F3;
     background: url("../images/bottomblueline.svg") no-repeat bottom center;
+}
+
+.recentTransaction__content-list > a {
+    color: #718EBF;
 }

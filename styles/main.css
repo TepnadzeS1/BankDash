@@ -72,6 +72,10 @@ body {
     border: 1px solid #DFEAF2;
 }
 
+.simple-bottomborder {
+    border-bottom: 1px solid #EBEEF2;
+}
+
 /* || Typography */
 
 a {
