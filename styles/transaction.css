@@ -1,8 +1,8 @@
 /* || Recent Transactions */
 
 .recentTransaction__list {
-    width: 100%;
     gap: 71px;
+    flex-wrap: wrap;
 }
 
 .recentTransaction__list a {
@@ -14,6 +14,107 @@
     background: url("../images/bottomblueline.svg") no-repeat bottom center;
 }
 
-.recentTransaction__content-list > a {
+.recentTransaction__content-title > a {
     color: #718EBF;
+    padding: 22px 120px 11px 30px;
+    font-size: 16px;
 }
+
+.recentTransaction__content {
+    width: 100%;
+    position: absolute;
+}
+
+.recentTransaction__content-title > a:nth-child(2) {
+    padding-right: 43px;
+}
+
+.recentTransaction__content-title > a:nth-child(3) {
+    padding-right: 87px;
+}
+
+.recentTransaction__content-title > a:nth-child(4) {
+    padding-right: 97px;
+}
+
+.recentTransaction__content-title > a:nth-child(5) {
+    padding-right: 115px;
+}
+
+.recentTransaction__content-title > a:nth-child(6) {
+    padding-right: 49px;
+}
+
+.recentTransaction__content-title > a:nth-child(7) {
+    padding-right: 0px;
+}
+
+.recentTransaction__content-name {
+    flex-wrap: wrap;
+}
+
+.content-name > div {
+    padding: 0px 21px 0px 30px;
+    gap: 14px;
+}
+
+.content-name > div > button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.content-name > div > p {
+    width: 173px;
+}
+
+.content-name > p:nth-child(2) {
+    padding-right: 85px;
+}
+
+.content-name > p:nth-child(3) {
+    width: 78px; 
+    padding-right: 75px;
+}
+
+.content-name > p:nth-child(4) {
+    padding-right: 59px;
+}
+
+.content-name > p:nth-child(5) {
+    width: 150px;
+    padding-right: 52px;
+}
+
+.content-name > span {
+    width: 70px;
+    padding: 20px 47px 0px 0px;
+}
+
+.recentTransaction__button {
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #123288;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+/* .content-name:nth-child(2) > div{
+    padding-right: 86px;
+}
+
+.content-name:nth-child(3) > div{
+    padding-right: 73px;
+}
+
+.content-name:nth-child(4) > div{
+    padding-right: 141px;
+}
+
+.content-name:nth-child(5) > div{
+    padding-right: 147px;
+} */
+
+
