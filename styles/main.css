@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    min-width: 380px;
+    min-width: 590px;
 }
 
 .section__main-page {

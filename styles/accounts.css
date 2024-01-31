@@ -1,0 +1,85 @@
+/* || Simple About */
+.article__simpleAbout {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.article__simpleAbout > div {
+    gap: 15px;
+    justify-content: center;
+    max-width: 255px;
+    flex-wrap: wrap;
+    height: 120px;
+    align-items: center;
+}
+
+.article__simpleAbout > div > p {
+    font-weight: 200;
+}
+
+.article__simpleAbout > div span {
+    font-weight: 500;
+}
+
+/* Last Transaction and My Card */
+
+.article__lastTransactionAndmyCard {
+    gap: 30px;
+    flex-wrap: wrap;
+    height: 235px;
+}
+
+.lastTransaction__content {
+    max-width: 730px;
+    width: 100%;
+    margin-top: 0px;
+    gap: 10px;
+    height: 235px;
+    justify-content: center;
+}
+
+.lastTransaction__content > img {
+    transition: all 0.2s;
+    width: 680px;
+}
+
+.lastTransaction__content > img:hover {
+    transform: scale(1.1);
+}
+
+.article__lastTransactionAndmyCard > h3 {
+    position: absolute;
+}
+
+.myCard__content {
+    margin-top: 0px;
+    height: 235px;
+}
+
+.card--weakblue {
+    background: linear-gradient(107deg, #2D60FF 2.61%, #539BFF 101.2%);
+}
+
+.article__DCoverviewAndinvoiceSent {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.DCoverview__content {
+    transition: all 0.15s;
+}
+
+.DCoverview__content:hover {
+    transform: scale(1.1);
+}
+
+.invoiceSent__content {
+    margin-top: 0px;
+    gap: 21px;
+    justify-content: center;
+}
+
+.invoiceSent__content > h3 {
+    position: absolute;
+    margin-top: -410px;
+}
