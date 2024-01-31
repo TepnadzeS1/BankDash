@@ -1,0 +1,53 @@
+/* || Simple About */
+
+.article__simpleAbout--width > div {
+    width: 350px;
+}
+
+.article__investments > div {
+    gap: 10px;
+    justify-content: center;
+    max-width: 350px;
+    flex-wrap: wrap;
+    height: 120px;
+    align-items: center;
+}
+
+/* || My Investments and Trending Stocks */
+.content__companies p {
+    font-size: 16px;
+}
+
+.content__companies > div {
+    width: 635px;
+    height: 90px;
+}
+
+.companies__title span {
+    width: 200px;
+    display: block;
+}
+
+.content__companies > div > p:nth-child(2) > span {
+    width: 127px;
+    display: block;
+}
+
+.content__companies > div > p:nth-child(3) > span {
+    width: 90px;
+    display: block;
+}
+
+.content__companies > div {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.companies__title {
+    gap: 20px;
+}
+
+.content__companies {
+    gap: 15px;
+}

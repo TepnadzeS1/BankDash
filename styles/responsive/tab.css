@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* || Tab of Accounts */
+
+    .myCard__content {
+        margin-top: 40px;
+    }
+
+    .article__DCoverviewAndinvoiceSent {
+        margin-top: 300px;
+    }
+
+    .invoiceSent__content {
+        margin-top: 65px;
+    }
+
+    /* || Tab of Investments */
+
+    .trendingStock__content {
+        margin-top: 30px;
+    }
+}
+

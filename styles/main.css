@@ -76,6 +76,11 @@ body {
     border-bottom: 1px solid #EBEEF2;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 /* || Typography */
 
 a {
@@ -120,6 +125,14 @@ p, span {
 
 .text--weakblack {
     color: #232323;
+}
+
+.text--green {
+    color: #16DBAA;
+}
+
+.text--red {
+    color: #FE5C73;
 }
 
 /* || Header and Main Navigation */

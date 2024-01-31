@@ -1,8 +1,4 @@
 /* || Simple About */
-.article__simpleAbout {
-    flex-wrap: wrap;
-    gap: 30px;
-}
 
 .article__simpleAbout > div {
     gap: 15px;
@@ -24,8 +20,6 @@
 /* Last Transaction and My Card */
 
 .article__lastTransactionAndmyCard {
-    gap: 30px;
-    flex-wrap: wrap;
     height: 235px;
 }
 
@@ -58,11 +52,6 @@
 
 .card--weakblue {
     background: linear-gradient(107deg, #2D60FF 2.61%, #539BFF 101.2%);
-}
-
-.article__DCoverviewAndinvoiceSent {
-    gap: 30px;
-    flex-wrap: wrap;
 }
 
 .DCoverview__content {

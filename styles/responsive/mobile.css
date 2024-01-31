@@ -1,0 +1,31 @@
+@media screen and (max-width: 769px) and (min-width: 375px) {
+    body {
+        overflow-x: hidden;
+    }
+    /* || Mobile of Accounts */
+
+    .section__content {
+        width: 100%;
+        min-width: 735px;
+    }
+
+    .main-page__article {
+        margin-left: 55px;
+    }
+
+    .article__DCoverviewAndinvoiceSent {
+        margin-top: 300px;
+    }
+
+    .myCard__content {
+        margin-top: 30px;
+    }
+
+    .invoiceSent__content {
+        margin-top: 65px;
+    }
+
+    .trendingStock__content {
+        margin-top: 30px;
+    }
+}
